@@ -16,10 +16,13 @@ section {
 .container {
     max-width: 500px;
     margin: 0 auto;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    align-items: center;
-    flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
 }
 
 h1 {
